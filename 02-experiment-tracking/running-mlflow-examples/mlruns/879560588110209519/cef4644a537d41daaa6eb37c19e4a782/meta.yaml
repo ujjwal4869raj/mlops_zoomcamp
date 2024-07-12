@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops_zoomcamp/02-experiment-tracking/running-mlflow-examples/mlruns/879560588110209519/cef4644a537d41daaa6eb37c19e4a782/artifacts
+end_time: 1720772902200
+entry_point_name: ''
+experiment_id: '879560588110209519'
+lifecycle_stage: active
+run_id: cef4644a537d41daaa6eb37c19e4a782
+run_name: tasteful-shoat-328
+run_uuid: cef4644a537d41daaa6eb37c19e4a782
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720772899479
+status: 3
+tags: []
+user_id: codespace
