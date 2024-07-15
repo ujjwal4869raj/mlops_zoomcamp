@@ -43,8 +43,8 @@ def run_optimization(data_path: str, num_trials: int):
         return {'loss': rmse, 'status': STATUS_OK}
 
     search_space = {
-        'max_depth': scope.int(hp.quniform('max_depth', 1, 20, 1)),
-        'n_estimators': scope.int(hp.quniform('n_estimators', 10, 50, 1)),
+        'max_depth': scope.int(hp.quniform('max_depth', 1, 10, 1)),
+        'n_estimators': scope.int(hp.quniform('n_estimators', 20, 50, 1)),
         'min_samples_split': scope.int(hp.quniform('min_samples_split', 2, 10, 1)),
         'min_samples_leaf': scope.int(hp.quniform('min_samples_leaf', 1, 4, 1)),
         'random_state': 42
