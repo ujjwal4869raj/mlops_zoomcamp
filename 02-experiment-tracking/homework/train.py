@@ -4,6 +4,8 @@ import click
 
 import mlflow
 
+mlflow.autolog()
+
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.datasets import load_iris
@@ -24,8 +26,6 @@ def load_pickle(filename: str):
 
 
 def run_train(data_path: str):
-
-    mlflow.set_experiment("my-experiment-1")
 
     with mlflow.start_run():
 
